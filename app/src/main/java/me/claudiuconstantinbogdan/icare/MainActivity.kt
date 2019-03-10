@@ -2,7 +2,7 @@ package me.claudiuconstantinbogdan.icare
 
 import android.os.Bundle
 import com.google.android.material.snackbar.Snackbar
-import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
 
@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         setSupportActionBar(toolbar)
 
         fab.setOnClickListener { view ->
-            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+            Snackbar.make(view, "This will be my own action.", Snackbar.LENGTH_LONG)
                 .setAction("Action", null).show()
         }
     }
